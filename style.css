@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 1000px;
+  min-width: 300px;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #144747;
+  margin: 50px 0px;
+  height: 50%;
+  width: 100%;
+}

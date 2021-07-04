@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Electrum1">
           <h3>Products</h3>
           <Card background={background} />
           <Link exact to="/overview">View more Details</Link>
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/overview">
           <h3>Products Overview</h3>
           <Card background={background2} />
-          <Link exact to="/">Back to Product</Link>
+          <Link exact to="/Electrum1">Back to Product</Link>
         </Route>
       </Switch>
     </div>
